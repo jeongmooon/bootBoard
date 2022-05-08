@@ -1,0 +1,24 @@
+server:
+  port: 4600
+
+
+spring:
+  output:
+    ansi:
+      enabled:  always
+
+  datasource:
+    url: jdbc:oracle:thin:@db202204092247_high?TNS_ADMIN=D:/oracle/Wallet_DB202204092247
+    username: admin
+    password: Vywjdans!234
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+ 
+  thymeleaf:
+    cache: false
+    
+ 
